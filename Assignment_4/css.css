@@ -1,0 +1,55 @@
+img {
+    width: 150px;
+    height: 180px;
+    margin: auto;
+    padding: auto;
+  }
+body {
+    font-family: 'Gill Sans', sans-serif;
+}
+  #parent {
+    background-color: bisque; 
+    width:200px; 
+    height:200px;
+  }
+  #parent:hover {
+    background-color:red;
+  }
+  #child {
+    background-color: aquamarine; 
+    width:800px; 
+    height:800px; 
+    visibility: hidden;
+  }
+  .top_bar { 
+    border-radius: 10px;
+  }
+  .main_bar {
+    padding:15px; 
+    border-radius: 25px;
+  }
+  .centered {
+    margin:auto;
+  }
+  .user_info {
+    position:absolute; width: 800px; height:600px; left: 0; right:0; margin-left: auto; margin-right: auto;
+  }
+  .avatar {
+    position:absolute; display:inline-block; left: 5px; top:5px; height:240px; width:180px; text-align: center;
+  }
+  .info {
+    position: absolute; display:inline-block; width:600px; height: 240px; top:5px; right:5px;
+  }
+  .account_box {
+    width:100px; height:100px; margin:10px
+  }
+  #child {
+    position: absolute;
+    width:400px;
+    height:400px;
+    background-color: black;
+    visibility: hidden;
+  }
+  #child:hover{
+    visibility: visible;
+  }
